@@ -44,7 +44,7 @@ class App extends Component{
         <input onChange={this.handleInputChange} name="num1" type="text" placeholder="enter number" />
         <input onChange={this.handleInputChange} name="num2" type="text" placholder="enter number" />
         <button onClick={this.onSubmit}> Add </button>
-        <br /> <br />
+        <br /> <br /> <br />
         <span> {this.state.result} </span> 
       </div>
     );
